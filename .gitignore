@@ -1,0 +1,26 @@
+# .gitignore
+
+# Ignore the .env file
+.env
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+.venv/
+
+# Ignore any logs
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore other unnecessary files
+.idea/
+.vscode/
